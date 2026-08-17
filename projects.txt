@@ -1,0 +1,6 @@
+TECHNICAL PROJECTS
+Interactive Terminal Portfolio Website | Lead Developer
+Technologies: JavaScript, HTML5, CSS3, DOM Manipulation, Embedded Emulators
+• Engineered a fully interactive, browser-based terminal emulator mimicking a Unix-like command-line interface with custom state management and command parsing.
+• Integrated diagnostic command simulations (such as the macOS "doctor" utility) to execute real-time system checks and output formatted text dynamically.
+• Embedded retro gaming functionality by integrating a browser-compatible port of DOOM, showcasing advanced DOM manipulation, event handling, and asset loading

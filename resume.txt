@@ -1,0 +1,27 @@
+TRISTAN CHARLES ROA
+(808) 799-0466 | triscroa@gmail.com | www.linkedin.com/in/tristan-roa / GitHub URL
+
+PROFESSIONAL SUMMARY
+Technical and proactive Computer Science Senior and United States Marine Corps Veteran with a strong foundation in full-stack development, browser automation, and API integrations. Proficient in JavaScript, Python, and modern web frameworks. Proven ability to operate autonomously, manage complex data systems, and optimize workflows in fast-paced environments. Seeking to leverage technical discipline and software engineering skills to build scalable systems.
+
+TECHNICAL SKILLS
+• Programming Languages: JavaScript (ES6+), Python (FastAPI, Flask), Java, C++, C, SQL
+• Web & Automation: HTML5, CSS3, DOM Manipulation, Browser Automation, RESTful APIs, LLM API Integrations
+• Databases & Tools: MySQL, phpMyAdmin, Relational Database Management, Advanced Excel/Google Sheets, Looker Studio
+• Tools & Frameworks: Git/Version Control, Apache (XAMPP), Object-Oriented Programming (OOP), Agile Development
+
+EXPERIENCE
+Military Service (2017–2021)
+Bulk Fuel Specialist 1391 | United States Marine Corps
+• Managed the safe disposal of hazardous waste for Engineer Services over a 39-month period, ensuring 100% compliance with environmental safety protocols.
+• Led and mentored three junior Marines, overseeing daily operations and technical maintenance of mission-critical fueling equipment.
+• Received two Meritorious Masts from MWSD-24 for exceptional performance in aircraft fueling operations during PTA exercises.
+• Executed weekly preventive maintenance operations on CLB-3 fuel equipment to ensure constant mission readiness.
+
+Security and Professional Roles (2022–2025)
+Security Professional | Oculus and HSS Security
+• Maintained high-vigilance security protocols for diverse environments, demonstrating adaptability and crisis-management skills.
+
+EDUCATION
+Bachelor of Arts in Computer Science (Senior Year, Expected Graduation: Fall 2026)
+University of Colorado Denver

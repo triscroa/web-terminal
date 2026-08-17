@@ -1,0 +1,109 @@
+/* ==========================================================================
+   Global Body Styles
+   Sets up the dark retro aesthetic, monospaced font, and full-screen layout.
+   ================================================================********** */
+body {
+    background-color: #0c0c0c;
+    color: #33ff33;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+/* ==========================================================================
+   Terminal Container
+   Wraps the entire shell interface and allows it to fill available space.
+   ========================================================================== */
+#terminal {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-bottom: 10px;
+}
+/* ==========================================================================
+   Terminal Output Area
+   Manages how text responses, logs, and command history are displayed.
+   ========================================================================== */
+#output {
+    white-space: pre-wrap;
+    word-break: break-all;
+    margin-bottom: 10px;
+}
+/* ==========================================================================
+   Input Line Layout
+   Arranges the static prompt and the active text input box side-by-side.
+   ========================================================================== */
+#input-line {
+    display: flex;
+    align-items: center;
+}
+/* ==========================================================================
+   Shell Prompt String
+   Styles the static text indicator (e.g., guest@terminal:~$).
+   ========================================================================== */
+#prompt {
+    margin-right: 8px;
+    white-space: nowrap;
+}
+/* ==========================================================================
+   User Text Input Field
+   Removes default browser input styling to blend seamlessly into the terminal.
+   ========================================================================== */
+#user-input {
+    background: transparent;
+    border: none;
+    color: #33ff33;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    outline: none;
+    flex-grow: 1;
+}
+/* ==========================================================================
+   DOOM Emulator Container
+   Houses the retro game canvas and close button with a matching green border.
+   ========================================================================== */
+#dosbox-container {
+    position: relative;
+    width: 640px;
+    max-width: 100%;
+    margin: 10px 0;
+    border: 1px solid #33ff33;
+}
+/* ==========================================================================
+   DOOM Canvas Element
+   The rendering surface where the js-dos emulator draws the game graphics.
+   ========================================================================== */
+#dosbox {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* ==========================================================================
+   Close DOOM Button
+   Positioned in the top-right corner of the emulator container.
+   ========================================================================== */
+#dosbox-close {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    z-index: 10;
+    background: #0c0c0c;
+    color: #33ff33;
+    border: 1px solid #33ff33;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+/* ==========================================================================
+   Close DOOM Button Hover State
+   Inverts colors (high-contrast flash) when the user hovers over the button.
+   ========================================================================== */
+#dosbox-close:hover {
+    background: #33ff33;
+    color: #0c0c0c;
+}
